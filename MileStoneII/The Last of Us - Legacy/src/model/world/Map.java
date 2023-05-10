@@ -73,12 +73,5 @@ public class Map extends Cell {
             }
         }
         return -1; 
-    }
-    
-    
-    
-    
-    
-    
-    
+    } 
 }
