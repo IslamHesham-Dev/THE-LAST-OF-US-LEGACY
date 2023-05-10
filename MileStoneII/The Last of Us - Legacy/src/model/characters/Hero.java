@@ -72,30 +72,8 @@ public abstract class Hero extends Character {
 		if(this instanceof Fighter && this.specialAction == true) {
 			return;
 		}
-		actionsAvailable --;
-		
-		
-		
-		
-		
-		
-		
-		
+		actionsAvailable --;	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	  public void setStartingCell(Map startingCell, Map map) {
@@ -237,20 +215,7 @@ public abstract class Hero extends Character {
      	if(newy +1 >= 0)
             Game.map[newx][newy+1].setVisible(true);
         		
-    	actionsAvailable--;
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
+    	actionsAvailable--;   	
 }
     public void useSpecial() {
     	
@@ -261,11 +226,4 @@ public abstract class Hero extends Character {
     	  throw new NoAvailableResourcesException("Ran out of Vaccine");
     	}
         }
-       
-
-	
-    
-    
-    
-    
 }
