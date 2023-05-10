@@ -98,41 +98,6 @@ public class Test {
 	  //map.updateMap(playFighter);
 	  //map.SetPos(map.getRow(playFighter), map.GetCol(playFighter), new CharacterCell(playFighter));
 
-	  //System.out.println("Hero moved to row " + map.getRow(playFighter) + ", column " + map.GetCol(playFighter));
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	    
- 
-	   
-	  
-	  
-	  
-	  
-		 
-  }
-	  
- 	  
-	  
-	  
-	  
+	  //System.out.println("Hero moved to row " + map.getRow(playFighter) + ", column " + map.GetCol(playFighter));	 
+  }	  
 }
-	 
-	 
-  
- 
- 
- 
- 
- 
- 
