@@ -48,16 +48,6 @@ public class Game {
 		 for(int j = 0; j < map.length;j++)
 			 map[i][j] = new CharacterCell(null);
 	 }
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 		 }
 	      
  
@@ -76,7 +66,5 @@ public class Game {
 	  public static void endTurn() {
 		  
 	  }
-	   
- 
 }
  
